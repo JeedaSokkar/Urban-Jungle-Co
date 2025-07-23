@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,59 +11,53 @@
   box-sizing: border-box;
 }
 
-
 /*Navbar Section*/
-.navcontent{
+.navcontent {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
-position: absolute;
-z-index: 10;
-
+  position: absolute;
+  z-index: 10;
 }
-.logo{
-    width: fit-content;
+.logo {
+  width: fit-content;
 
-   padding-right:600px;
+  padding-right: 600px;
 }
-.NavItem{
-    gap: 25px;
-    display: flex;
+.NavItem {
+  gap: 25px;
+  display: flex;
 }
-.NavItem a{
-text-decoration: none;
-color: white;
-font-size: 20px;
- font-weight: bold;
-
+.NavItem a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.NavItem .active{
-    color:#9ecd9e
-
+.NavItem .active {
+  color: #9ecd9e;
 }
-.NavItem a:hover{
-    color: #138a13;
-    transform: scale(1.2);
+.NavItem a:hover {
+  color: #138a13;
+  transform: scale(1.2);
 }
 /*End Navbar*/
 
 /*Hero Section*/
-.HeroSection{
-    background-image: url('/Img/home-hero-bg.jpg');
-    background-size: cover;
-background-position: center;
-  padding:300px 0; 
+.HeroSection {
+  background-image: url("/Img/home-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0;
   text-align: center;
   height: 100vh;
-   display: flex;
-  flex-direction: column;         
-  justify-content: center;      
-  align-items: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-
-  
   position: relative; /*علشان غمق طبقة ه */
   overflow: hidden;
 }
@@ -73,7 +67,7 @@ background-position: center;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
 .herospan,
@@ -81,94 +75,401 @@ background-position: center;
   position: relative;
   z-index: 2;
   color: white;
-  margin: 0; 
+  margin: 0;
 }
 
 .herospan {
-     font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif;
   padding-bottom: 20px;
   font-size: 18px;
 }
 
 .heroTitle {
-      font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif;
 
-  font-size:50px;
+  font-size: 50px;
   font-weight: 700px;
   width: 490px;
 }
-.bottonShop{
-    width: 150px;
-    height: 50px;
-    border-radius: 45px;
-    margin: 20px;
-    padding: 5px;
-    border: #138a13;
-    color: white;
-    background-color: #138a13;
-      position: relative;
-    z-index: 2;
+.bottonShop {
+  width: 150px;
+  height: 50px;
+  border-radius: 45px;
+  margin: 20px;
+  padding: 5px;
+  border: #138a13;
+  color: white;
+  background-color: #138a13;
+  position: relative;
+  z-index: 2;
+  font-size: 17px;
 }
-.bottonShop:hover{
-transform: scale(1.05);
+.bottonShop:hover {
+  transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 /*Hero Section*/
 /*Services */
-.ServContent{
-    margin:70px 0;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    justify-content: space-between;
-   
+.ServContent {
+  margin: 70px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
 }
-.item{
-text-align: center;
-   display: flex;   
-   flex-direction: column;          
+.item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.icon i{
-    font-size: 27px;
+.icon i {
+  font-size: 27px;
 }
-.icon{
-    
-    margin-bottom: 9px;
-    background-color: #ecf4d3;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    padding: 6px;
-      display: flex;             
+.icon {
+  margin-bottom: 9px;
+  background-color: #ecf4d3;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  padding: 6px;
+  display: flex;
   align-items: center;
   justify-content: center;
-   
 }
 /*Services */
 
 /*Trending Products*/
-.TitleSecTrending{
-    text-align: center;
-         font-family: "Nunito", sans-serif;
-font-size: 30px;
-margin-bottom: 60px;
+.TitleSecTrending {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  margin: 75px 0;
 }
 
-.Product{
-       display: flex;
-    flex-direction: row;
-    gap: 30px;
-    justify-content: space-between;
+.Product {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
 }
-.Product .itemProduct img{
-    margin-bottom: 20px;
-    width: 350px;
-    height: fit-content;
-    border-radius: 8px;
+.Product .itemProduct img {
+  margin-bottom: 20px;
+  width: 350px;
+  height: fit-content;
+  border-radius: 8px;
 }
-
-
 
 /*Trending Products*/
+
+/*SecImg*/
+.SecImg {
+  margin-top: 85px;
+  background-image: url("/Img/middle-cta.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative; /*علشان غمق طبقة ه */
+  overflow: hidden;
+}
+.SecImg p,
+h1 {
+  position: relative;
+  z-index: 2;
+  color: white;
+  margin: 0;
+}
+.SecImg h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 50px;
+  font-weight: 700px;
+  width: 600px;
+}
+.SecImg p {
+  margin-bottom: 30px;
+  margin-top: 35px;
+  width: 500px;
+}
+.SecImg .bottonShop {
+  width: 150px;
+  height: 50px;
+  border-radius: 45px;
+  margin: 20px;
+  padding: 5px;
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  position: relative;
+  z-index: 2;
+  font-size: 17px;
+}
+.SecImg .bottonShop:hover {
+  border: white;
+  color: #138a13;
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+/*SecImg*/
+
+/*sec Categories*/
+.TitleSecCategories{
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  margin: 75px 0;
+ color: black;
+}
+.Category {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}
+.Category h3{
+  text-align: center;
+}
+.Category  img {
+  margin-bottom: 20px;
+  width: 280px;
+  height: fit-content;
+  border-radius: 8px;
+}
+
+/*sec Categories*/
+/*Popular Products*/
+.TitleSecPopuler{
+    text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  margin: 75px 0;
+}
+.ProductPopuler {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+.ProductPopuler .itemProduct img {
+  margin-bottom: 20px;
+  width: 350px;
+  height: fit-content;
+
+}
+/*Popular Products*/
+
+ /* Premier Destination */
+.PremierSec {
+  background-color: #ecf4d3;
+  margin-top: 65px;
+  padding: 40px 0;
+}
+
+.PremierSec .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.PremierSec .wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.PremierSec .img img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+}
+
+.PremierSec .content {
+  max-width: 550px;
+}
+
+.PremierSec .content h2 {
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 20px;
+}
+
+.PremierSec .content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+hr{
+  margin-top: 50px;
+}
+.containerStats {
+  margin-top: 50px;
+  display: flex;
+ 
+  gap: 100px;
+
+  font-family: "Nunito", sans-serif;
+}
+
+.statItem h2 {
+  font-size: 36px;
+  margin: 0;
+  font-weight: bold;
+
+}
+
+.statItem p {
+  font-size: 18px;
+  margin-top: 5px;
+
+}
+
+ /* Premier Destination */
+/*Customer*/
+.Custom {
+  background-color: #ecf4d3;
+
+  padding: 40px 0;
+}
+.Custom .crud{
+  margin: 30px 0;
+   display: flex;
+  gap: 20px;
+  flex-direction:row ;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Custom .Item{
+  background-color: white;
+  width: 450px;
+  border-radius: 15px;
+  padding: 30px;
+}
+.Custom .Item h2 i{
+ margin-bottom: 10px;
+}
+.Custom .crud .Item .person {
+gap: 17px;
+display:flex;
+flex-direction: row;
+margin-top: 15px;
+  align-items: center;
+
+}
+.Custom .crud .Item .person img{
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+}
+
+/*Customer*/
+
+ /*Sec Image Footer*/
+ .SecImgFooter{
+
+  background-image: url("/Img/footer-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative; /*علشان غمق طبقة ه */
+  overflow: hidden;
+}
+.SecImgFooter p,
+h1 {
+  position: relative;
+  z-index: 2;
+  color: white;
+  margin: 0;
+}
+.SecImgFooter h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 50px;
+  font-weight: 700px;
+  width: 600px;
+}
+.SecImgFooter p {
+  margin-bottom: 30px;
+  margin-top: 35px;
+  width: 440px;
+}
+.SecImgFooter .bottonShop {
+  width: 150px;
+  height: 50px;
+  border-radius: 45px;
+  margin: 20px;
+  padding: 5px;
+  border:none;
+  color: white;
+  background-color:#138a13;
+  position: relative;
+  z-index: 2;
+  font-size: 17px;
+}
+.SecImgFooter .bottonShop:hover {
+ 
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+/*Sec Image Footer*/
+
+/*Footer*/
+.SecFooter{
+  background-color: #ecf4d3;
+ 
+}
+.SecFooter .content{
+  color: black;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  
+}
+.SecFooter .logo{
+    width: fit-content;
+  padding-right: 40px;
+}
+.SecFooter .content .Item a{
+
+ text-decoration: none;
+  color: black;
+  font-size: 20px;
+    padding-right: 40px;
+
+ 
+}
+.SecFooter .Item{
+ 
+  gap: 18px;
+  display: flex;
+
+}
+.SecFooter .content .Item a:hover{
+ color: #138a13;
+  transform: scale(1.2);
+}
+.SecFooter hr{
+  margin: 10px 0;
+}
+.FooterP{
+      text-align: center;
+
+color:#c5c5c5;
+}
+/*Footer*/
