@@ -48,7 +48,7 @@
 
 /*Hero Section*/
 .HeroSection {
-  background-image: url("./Img/home-hero-bg.jpg");
+  background-image: url("../Img/home-hero-bg.jpg");
   background-size: cover;
   background-position: center;
   padding: 300px 0;
@@ -167,7 +167,7 @@
 /*SecImg*/
 .SecImg {
   margin-top: 85px;
-  background-image: url("./Img/middle-cta.jpg");
+  background-image: url("../Img/middle-cta.jpg");
   background-size: cover;
   background-position: center;
   padding: 300px 0;
@@ -377,7 +377,7 @@ margin-top: 15px;
  /*Sec Image Footer*/
  .SecImgFooter{
 
-  background-image: url("./Img/footer-bg.jpg");
+  background-image: url("../Img/footer-bg.jpg");
   background-size: cover;
   background-position: center;
   padding: 300px 0;
@@ -679,7 +679,7 @@ color:#c5c5c5;
 
 .HeroSectionShop{
  
-  background-image: url("./Img/shop-bg.jpg");
+  background-image: url("../Img/shop-bg.jpg");
   background-size: cover;
   background-position: center;
   padding: 300px 0;
@@ -795,7 +795,7 @@ color:#c5c5c5;
 /*----------------------------About Page-------------------------*/
 .HeroSectionAbout{
  
-  background-image: url("./Img/about-bg.jpg");
+  background-image: url("../Img/about-bg.jpg");
   background-size: cover;
   background-position: center;
   padding: 300px 0;
@@ -1055,7 +1055,7 @@ margin-top: 15px;
 /*Hero Secton Conten*/
 .HeroSectionCon{
  
-  background-image: url("./Img/contact-bg.jpg");
+  background-image: url("../Img/contact-bg.jpg");
   background-size: cover;
   background-position: center;
   padding: 300px 0;
