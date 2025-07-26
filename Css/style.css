@@ -48,7 +48,7 @@
 
 /*Hero Section*/
 .HeroSection {
-  background-image: url("./Img/home-hero-bg.jpg");
+  background-image: url("Img/home-hero-bg.jpg");
   background-size: cover;
   background-position: center;
   padding: 300px 0;
@@ -167,7 +167,7 @@
 /*SecImg*/
 .SecImg {
   margin-top: 85px;
-  background-image: url("Img/middle-cta.jpg");
+  background-image: url("./Img/middle-cta.jpg");
   background-size: cover;
   background-position: center;
   padding: 300px 0;
