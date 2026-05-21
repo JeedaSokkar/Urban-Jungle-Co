@@ -20,11 +20,3 @@ The site consists of a main page with the following sections:
 - **HTML5:** Semantic elements for structure and SEO
 - **CSS3:** Custom styling, typography, and responsive layouts
 
-## 🚀 Getting Started
-
-### How to Run Locally
-
-1. **Clone the repository:**
-   
-```bash
-   git clone [https://github.com/JeedaSokkar/Urban-Jungle-Co.git](https://github.com/JeedaSokkar/Urban-Jungle-Co.git)
